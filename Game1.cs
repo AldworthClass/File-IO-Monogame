@@ -71,7 +71,7 @@ namespace File_IO_Monogame
             Vector2 wordLocation = new Vector2(10, 10);
             foreach (string word in words)
             {
-                _spriteBatch.DrawString(textFont, word + "\n", wordLocation , Color.Black);
+                _spriteBatch.DrawString(textFont, word + "", wordLocation , Color.Black);
                 wordLocation.Y += 42;
             }
 
